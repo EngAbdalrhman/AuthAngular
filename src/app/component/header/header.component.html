@@ -1,0 +1,6 @@
+<p-menubar [model]="items">
+  <ng-template pTemplate="end">Welocme {{ _login.userName }} </ng-template>
+  <a href="#" title="Log Out" (click)="logOut($event)"
+    ><i class="pi pi-power-off"></i
+  ></a>
+</p-menubar>
